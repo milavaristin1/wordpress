@@ -1,0 +1,10 @@
+[04-Aug-2021 04:22:12 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in C:\Users\WINDOWS 10\Local Sites\myweb\app\public\wp-includes\update.php on line 160
+[04-Aug-2021 04:22:12 UTC] PHP Stack trace:
+[04-Aug-2021 04:22:12 UTC] PHP   1. {main}() C:\Users\WINDOWS 10\Local Sites\myweb\app\public\wp-admin\update.php:0
+[04-Aug-2021 04:22:12 UTC] PHP   2. Theme_Upgrader->install() C:\Users\WINDOWS 10\Local Sites\myweb\app\public\wp-admin\update.php:280
+[04-Aug-2021 04:22:12 UTC] PHP   3. Theme_Upgrader->run() C:\Users\WINDOWS 10\Local Sites\myweb\app\public\wp-admin\includes\class-theme-upgrader.php:220
+[04-Aug-2021 04:22:12 UTC] PHP   4. do_action() C:\Users\WINDOWS 10\Local Sites\myweb\app\public\wp-admin\includes\class-wp-upgrader.php:835
+[04-Aug-2021 04:22:12 UTC] PHP   5. WP_Hook->do_action() C:\Users\WINDOWS 10\Local Sites\myweb\app\public\wp-includes\plugin.php:465
+[04-Aug-2021 04:22:12 UTC] PHP   6. WP_Hook->apply_filters() C:\Users\WINDOWS 10\Local Sites\myweb\app\public\wp-includes\class-wp-hook.php:310
+[04-Aug-2021 04:22:12 UTC] PHP   7. wp_version_check() C:\Users\WINDOWS 10\Local Sites\myweb\app\public\wp-includes\class-wp-hook.php:284
+[04-Aug-2021 04:22:12 UTC] PHP   8. trigger_error() C:\Users\WINDOWS 10\Local Sites\myweb\app\public\wp-includes\update.php:160
